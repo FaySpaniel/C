@@ -1,0 +1,177 @@
+﻿#include <iostream> 
+using namespace std;
+
+int main()
+{
+    setlocale(0, "");
+    float a1 = 1.1,
+        a2 = 1.2,
+        a3 = 1.3,
+        a4 = 1.4,
+        a5 = 1.5,
+        a6 = 1.6,
+        a7 = 1.7,
+        a8 = 1.8,
+        a9 = 1.9,
+        a10 = 1.101;
+    cout << "a1 = " << a1 << " | тип: float, размер: 4 б." << endl;
+    cout << "a2 = " << a2 << " | тип: float, размер: 4 б." << endl;
+    cout << "a3 = " << a3 << " | тип: float, размер: 4 б." << endl;
+    cout << "a4 = " << a4 << " | тип: float, размер: 4 б." << endl;
+    cout << "a5 = " << a5 << " | тип: float, размер: 4 б." << endl;
+    cout << "a6 = " << a6 << " | тип: float, размер: 4 б." << endl;
+    cout << "a7 = " << a7 << " | тип: float, размер: 4 б." << endl;
+    cout << "a8 = " << a8 << " | тип: float, размер: 4 б." << endl;
+    cout << "a9 = " << a9 << " | тип: float, размер: 4 б." << endl;
+    cout << "a10 = " << a10 << " | тип: float, размер: 4 б." << endl << endl;
+
+    double b1 = 1.1,
+        b2 = 1.2,
+        b3 = 1.3,
+        b4 = 1.4,
+        b5 = 1.5,
+        b6 = 1.6,
+        b7 = 1.7,
+        b8 = 1.8,
+        b9 = 1.9,
+        b10 = 1.01;
+    cout << "b1 = " << b1 << " | тип: double, размер: 8 б." << endl;
+    cout << "b2 = " << b2 << " | тип: double, размер: 8 б." << endl;
+    cout << "b3 = " << b3 << " | тип: double, размер: 8 б." << endl;
+    cout << "b4 = " << b4 << " | тип: double, размер: 8 б." << endl;
+    cout << "b5 = " << b5 << " | тип: double, размер: 8 б." << endl;
+    cout << "b6 = " << b6 << " | тип: double, размер: 8 б." << endl;
+    cout << "b7 = " << b7 << " | тип: double, размер: 8 б." << endl;
+    cout << "b8 = " << b8 << " | тип: double, размер: 8 б." << endl;
+    cout << "b9 = " << b9 << " | тип: double, размер: 8 б." << endl;
+    cout << "b10 = " << b10 << " | тип: double, размер: 8 б." << endl << endl;
+
+    int c1 = 1,
+        c2 = 2,
+        c3 = 3,
+        c4 = 4,
+        c5 = 5,
+        c6 = 6,
+        c7 = 7,
+        c8 = 8,
+        c9 = 9,
+        c10 = 10;
+    cout << "c1 = " << c1 << " | тип: int, размер: 4 б." << endl;
+    cout << "c2 = " << c2 << " | тип: int, размер: 4 б." << endl;
+    cout << "c3 = " << c3 << " | тип: int, размер: 4 б." << endl;
+    cout << "c4 = " << c4 << " | тип: int, размер: 4 б." << endl;
+    cout << "c5 = " << c5 << " | тип: int, размер: 4 б." << endl;
+    cout << "c6 = " << c6 << " | тип: int, размер: 4 б." << endl;
+    cout << "c7 = " << c7 << " | тип: int, размер: 4 б." << endl;
+    cout << "c8 = " << c8 << " | тип: int, размер: 4 б." << endl;
+    cout << "c9 = " << c9 << " | тип: int, размер: 4 б." << endl;
+    cout << "c10 = " << c10 << " | тип: int, размер: 4 б." << endl << endl;
+
+    short d1 = 1,
+        d2 = 2,
+        d3 = 3,
+        d4 = 4,
+        d5 = 5,
+        d6 = 6,
+        d7 = 7,
+        d8 = 8,
+        d9 = 9,
+        d10 = 10;
+    cout << "d1 = " << d1 << " | тип: short, размер: 2 б." << endl;
+    cout << "d2 = " << d2 << " | тип: short, размер: 2 б." << endl;
+    cout << "d3 = " << d3 << " | тип: short, размер: 2 б." << endl;
+    cout << "d4 = " << d4 << " | тип: short, размер: 2 б." << endl;
+    cout << "d5 = " << d5 << " | тип: short, размер: 2 б." << endl;
+    cout << "d6 = " << d6 << " | тип: short, размер: 2 б." << endl;
+    cout << "d7 = " << d7 << " | тип: short, размер: 2 б." << endl;
+    cout << "d8 = " << d8 << " | тип: short, размер: 2 б." << endl;
+    cout << "d9 = " << d9 << " | тип: short, размер: 2 б." << endl;
+    cout << "d10 = " << d10 << " | тип: short, размер: 2 б." << endl << endl;
+
+    long e1 = 1,
+        e2 = 2,
+        e3 = 3,
+        e4 = 4,
+        e5 = 5,
+        e6 = 6,
+        e7 = 7,
+        e8 = 8,
+        e9 = 9,
+        e10 = 10;
+    cout << "e1 = " << e1 << " | тип: long, размер: 4 б." << endl;
+    cout << "e2 = " << e2 << " | тип: long, размер: 4 б." << endl;
+    cout << "e3 = " << e3 << " | тип: long, размер: 4 б." << endl;
+    cout << "e4 = " << e4 << " | тип: long, размер: 4 б." << endl;
+    cout << "e5 = " << e5 << " | тип: long, размер: 4 б." << endl;
+    cout << "e6 = " << e6 << " | тип: long, размер: 4 б." << endl;
+    cout << "e7 = " << e7 << " | тип: long, размер: 4 б." << endl;
+    cout << "e8 = " << e8 << " | тип: long, размер: 4 б." << endl;
+    cout << "e9 = " << e9 << " | тип: long, размер: 4 б." << endl;
+    cout << "e10 = " << e10 << " | тип: long, размер: 4 б." << endl << endl;
+
+    char k1 = 'a',
+        k2 = 'b',
+        k3 = 'c',
+        k4 = 'd',
+        k5 = 'e',
+        k6 = 'f',
+        k7 = 'g',
+        k8 = 'h',
+        k9 = 'i',
+        k10 = 'g';
+    cout << "k1 = " << k1 << " | тип: char, размер: 1 б." << endl;
+    cout << "k2 = " << k2 << " | тип: char, размер: 1 б." << endl;
+    cout << "k3 = " << k3 << " | тип: char, размер: 1 б." << endl;
+    cout << "k4 = " << k4 << " | тип: char, размер: 1 б." << endl;
+    cout << "k5 = " << k5 << " | тип: char, размер: 1 б." << endl;
+    cout << "k6 = " << k6 << " | тип: char, размер: 1 б." << endl;
+    cout << "k7 = " << k7 << " | тип: char, размер: 1 б." << endl;
+    cout << "k8 = " << k8 << " | тип: char, размер: 1 б." << endl;
+    cout << "k9 = " << k9 << " | тип: char, размер: 1 б." << endl;
+    cout << "k10 = " << k10 << " | тип: char, размер: 1 б." << endl << endl;
+
+    string j1 = "туц",
+        j2 = "тутуц",
+        j3 = "мышка",
+        j4 = "сосиска",
+        j5 = "туц",
+        j6 = "тутуц",
+        j7 = "легущька",
+        j8 = "пупущька",
+        j9 = "а?",
+        j10 = "а.";
+    cout << "j1 = " << j1 << " | тип: string, размер: 3 б." << endl;
+    cout << "j2 = " << j2 << " | тип: string, размер: 5 б." << endl;
+    cout << "j3 = " << j3 << " | тип: string, размер: 5 б." << endl;
+    cout << "j4 = " << j4 << " | тип: string, размер: 7 б." << endl;
+    cout << "j5 = " << j5 << " | тип: string, размер: 3 б." << endl;
+    cout << "j6 = " << j6 << " | тип: string, размер: 5 б." << endl;
+    cout << "j7 = " << j7 << " | тип: string, размер: 8 б." << endl;
+    cout << "j8 = " << j8 << " | тип: string, размер: 8 б." << endl;
+    cout << "j9 = " << j9 << " | тип: string, размер: 2 б." << endl;
+    cout << "j10 = " << j10 << " | тип: string, размер: 2 б." << endl << endl;
+
+    bool f1 = true,
+        f2 = false,
+        f3 = true,
+        f4 = false,
+        f5 = true,
+        f6 = false,
+        f7 = true,
+        f8 = false,
+        f9 = true,
+        f10 = false;
+    cout << "f1 = " << f1 << " | тип: bool, размер: 1 б." << endl;
+    cout << "f2 = " << f2 << " | тип: bool, размер: 1 б." << endl;
+    cout << "f3 = " << f3 << " | тип: bool, размер: 1 б." << endl;
+    cout << "f4 = " << f4 << " | тип: bool, размер: 1 б." << endl;
+    cout << "f5 = " << f5 << " | тип: bool, размер: 1 б." << endl;
+    cout << "f6 = " << f6 << " | тип: bool, размер: 1 б." << endl;
+    cout << "f7 = " << f7 << " | тип: bool, размер: 1 б." << endl;
+    cout << "f8 = " << f8 << " | тип: bool, размер: 1 б." << endl;
+    cout << "f9 = " << f9 << " | тип: bool, размер: 1 б." << endl;
+    cout << "f10 = " << f10 << " | тип: bool, размер: 1 б." << endl;
+    int _ = 0;
+    cin >> _;
+    return 0;
+}
